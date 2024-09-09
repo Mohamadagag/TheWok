@@ -1,0 +1,288 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Think {
+  background-image: url("../public/ThinkInsideTheBox.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60rem;
+}
+
+.immg {
+  background-image: url("../public/BuildYourOwnWokBottom.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.order-btn-container {
+  left: 11%;
+  bottom: 2px;
+}
+
+.order-btn {
+  padding: 0.3rem 2rem;
+}
+
+.background-img {
+  background-image: url("../public/bg.png");
+}
+
+.location-height {
+  height: calc(100vh - 87px);
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+    visibility: hidden;
+  }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    visibility: hidden;
+  }
+  100% {
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.5s forwards;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.5s forwards;
+}
+
+@media screen and (max-width: 1440px) {
+  .message-bg {
+    background-image: url("../public/bg.png");
+    height: auto;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .mobile-margin__h2 {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 440px) {
+  .top-container {
+    top: 5.5rem;
+  }
+
+  .mobile-margin__p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .top-container {
+    top: 6.5rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .top-container {
+    top: 7rem;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .top-container {
+    top: 8rem;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .mobile-margin__h2 {
+    font-size: 1.5rem;
+  }
+
+  .mobile-margin__p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .top-container {
+    top: 10rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .mobile-margin__h2 {
+    margin-bottom: 5rem;
+  }
+
+  .mobile-margin__p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+  .mobile-margin__p_first {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-margin__h2 {
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .top-container {
+    top: 12rem;
+  }
+}
+
+@media screen and (min-width: 1725px) {
+  .bggersc {
+    left: 36% !important;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .order-btn-container {
+    left: 8%;
+  }
+
+  .order-btn {
+    padding: 0.3rem 3rem;
+  }
+}
+
+@media screen and (min-width: 465px) {
+  .order-btn-container {
+    left: 12%;
+    bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .order-btn-container {
+    left: 13%;
+    bottom: 10px;
+  }
+
+  .order-btn {
+    padding: 0.3rem 3rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .order-btn-container {
+    left: 17%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .order-btn-container {
+    left: 15%;
+    bottom: 20px;
+  }
+
+  .order-btn {
+    padding: 0.5rem 4rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .order-btn-container {
+    left: 12%;
+  }
+
+  .order-btn {
+    padding: 0.5rem 5rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 825px) {
+  .order-btn-container {
+    left: 14%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .order-btn-container {
+    left: 16%;
+    bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .order-btn-container {
+    left: 18%;
+    bottom: 40px;
+  }
+
+  .order-btn {
+    padding: 0.7rem 5rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .order-btn-container {
+    left: 20%;
+    bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-btn-container {
+    left: 15%;
+    bottom: 50px;
+  }
+
+  .order-btn {
+    padding: 1rem 8rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1426px) {
+  .order-btn-container {
+    left: 16%;
+    bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1528px) {
+  .order-btn-container {
+    left: 17%;
+    bottom: 70px;
+  }
+}
+
+@media screen and (min-width: 1710px) {
+  .order-btn-container {
+    left: 19%;
+  }
+}
+
+@media screen and (min-width: 1750px) {
+  .order-btn-container {
+    left: 19%;
+    bottom: 90px;
+  }
+}
+
+.order-btn,
+.primary-btn {
+  background: linear-gradient(to right, #b61414, #500909);
+}
